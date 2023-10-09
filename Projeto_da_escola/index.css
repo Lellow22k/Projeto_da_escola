@@ -1,0 +1,87 @@
+body{
+    color: black; 
+    background-color: rgb(176, 230, 203);
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+nav{
+    background-color: rgb(211, 241, 231);
+    overflow: hidden;
+    padding: 10px 50px;
+    margin: -7px;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: hsl(151, 55%, 85%);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(139, 218, 178); 
+    
+}
+
+.center{
+    display:flex;
+    text-align:left;
+}
+h1{
+  color: green;  
+}
+
+.VilaNova{
+    text-align: left;
+    color: green;
+    font-size: 100px;
+    margin: 50px;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center ;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+p{
+    font-size: 20px;
+}
